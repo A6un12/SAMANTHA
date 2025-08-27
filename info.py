@@ -41,8 +41,8 @@ DEFAULT_AUTH_CHANNELS = [int(x) for x in environ.get("AUTH_CHANNEL", "").split()
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dba6un:dba6un@a6un12.638zbik.mongodb.net")
-DATABASE_NAME = environ.get('DATABASE_NAME', "a6un12")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://A6un122:<A6un122>@a6un12.638zbik.mongodb.net/")
+DATABASE_NAME = environ.get('DATABASE_NAME', "A6un122")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
 
 # File Channel Settings
